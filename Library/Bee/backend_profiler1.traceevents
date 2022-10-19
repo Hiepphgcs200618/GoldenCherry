@@ -1,0 +1,583 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666111687895249, "dur":1405, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111687896662, "dur":338, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666111687897042, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666111687897085, "dur":437, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666111687897550, "dur":826, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111687898376, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546251, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546418, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546453, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546460, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546492, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546497, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546509, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546511, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546522, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546524, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546535, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546539, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546550, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546552, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546565, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546569, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546580, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546600, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693546744, "dur":12110, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666111687898140, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111687898436, "dur":2184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111687900624, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666111687900681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111687902230, "dur":37899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666111687940155, "dur":713882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666111688654042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111688654053, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666111688655375, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666111688655445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111688655472, "dur":70528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666111688726020, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666111688726055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111688726064, "dur":101090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666111688827169, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666111688827558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111688827564, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666111688828217, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1666111688828250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111688828389, "dur":238657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1666111689067068, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689067107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689067263, "dur":203952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689271227, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689271243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689271257, "dur":19003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689290273, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689290292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689290299, "dur":260364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689550682, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689550704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689550710, "dur":33686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689584413, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689584436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689584466, "dur":27917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689612400, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689612426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689612436, "dur":317776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689930235, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689930265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689930276, "dur":28849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689959147, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111689959182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111689959197, "dur":52226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690011460, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690011492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111690011505, "dur":782983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690794509, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690794534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111690794546, "dur":78327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690872907, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690872935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111690872949, "dur":51213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690924193, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111690924224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111690924343, "dur":80874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691005244, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691005268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111691005282, "dur":35004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691040306, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691040338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111691040349, "dur":35953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691076330, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691076369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111691076382, "dur":50694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691127103, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691127132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111691127147, "dur":48269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691175442, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691175469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111691175482, "dur":181248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691356755, "dur":587793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691944556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111691944571, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691946139, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111691946167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666111691946186, "dur":1189488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666111693135689, "dur":410569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111687897962, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111687898415, "dur":2264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111687900680, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1666111687900719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111687902270, "dur":37864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1666111687940155, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666111687940208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111687940243, "dur":714116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666111688654381, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666111688654431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111688654443, "dur":1389833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666111690044308, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111690044349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111690044363, "dur":32796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111690077190, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111690077231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111690077244, "dur":107331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111690184599, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111690184639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111690184653, "dur":600616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111690785291, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111690785326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111690785338, "dur":449777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691235168, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691235197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111691235211, "dur":254832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691490068, "dur":1130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691491205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111691491322, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691494204, "dur":76239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691570454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111691570470, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691571700, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111691571728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111691571742, "dur":519538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111692091305, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111692091334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111692091348, "dur":186898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111692278273, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111692278301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666111692278311, "dur":1267874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666111693546204, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1666111693546205, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111687898006, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111687898424, "dur":2195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111687900624, "dur":824774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1666111688725402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111688725577, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1666111688727256, "dur":1714755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690442017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111690442025, "dur":36018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690478064, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690478091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111690478100, "dur":310411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690788532, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690788566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111690788577, "dur":91937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690880548, "dur":3640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690884198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111690884212, "dur":82123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690966361, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111690966398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111690966414, "dur":39142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691005580, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691005610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691005621, "dur":151775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691157421, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691157453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691157467, "dur":74971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691232465, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691232615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691232631, "dur":100350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691333005, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691333031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691333044, "dur":110442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691443513, "dur":6598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691450120, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691450138, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691452565, "dur":87467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691540038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691540088, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691546170, "dur":10120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691556963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691556980, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691558739, "dur":194163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691752910, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691752926, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691755181, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691755200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691755211, "dur":133124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691888364, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691888391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691888406, "dur":89703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691978136, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111691978178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666111691978192, "dur":926424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666111692904634, "dur":641645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111687898123, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111687898431, "dur":2203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111687900634, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666111687900711, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111687902101, "dur":752305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666111688654425, "dur":70964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666111688725395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111688725407, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666111688726152, "dur":690156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689416312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689416508, "dur":4265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689420795, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689420822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689420831, "dur":129770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689550613, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689550636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689550643, "dur":33390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689584046, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689584065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689584072, "dur":22113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689606202, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689606222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689606230, "dur":24160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689630405, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689630426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689630434, "dur":26959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689657409, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689657432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689657444, "dur":26328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689683793, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689683824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689683835, "dur":24621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689708472, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689708487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689708495, "dur":22689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689731206, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689731239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689731251, "dur":22362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689753627, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689753646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689753655, "dur":57170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689810840, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689810866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689810874, "dur":156020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689966917, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111689966951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111689966964, "dur":169345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690136333, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690136357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111690136371, "dur":656359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690792751, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690792780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111690792792, "dur":82081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690874896, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690874928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111690874940, "dur":41586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690916553, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690916595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111690916608, "dur":40856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690957481, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111690957507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111690957517, "dur":48095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691005636, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691005670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111691005680, "dur":34531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691040237, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691040272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111691040286, "dur":39377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691079689, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691079721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111691079735, "dur":41884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691121644, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691121670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111691121709, "dur":440499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691562233, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691562265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111691562279, "dur":193509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691755821, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691755857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111691755901, "dur":149527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691905453, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111691905479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111691905500, "dur":330980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111692236500, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111692236595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111692236606, "dur":406347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111692642978, "dur":96754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111692739736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666111692739746, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666111692740555, "dur":805687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666111687898295, "dur":152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666111687898448, "dur":2199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666111687900648, "dur":754772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1666111688655448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666111688655494, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1666111688656356, "dur":83877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1666111688740238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666111688740247, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1666111688740762, "dur":4627786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":5, "ts":1666111693368552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666111693368561, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":5, "ts":1666111693369896, "dur":176353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111687898211, "dur":230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111687898441, "dur":2207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111687900648, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1666111687900757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111687902081, "dur":2139864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1666111690041978, "dur":750879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111690792888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111690792918, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111690794594, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111690794617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111690794627, "dur":39278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111690833929, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111690833954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111690833967, "dur":82729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111690916724, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111690916757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111690916769, "dur":118548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691035341, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691035377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691035391, "dur":36663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691072076, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691072133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691072153, "dur":43553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691115738, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691115769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691115784, "dur":37233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691153046, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691153084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691153099, "dur":47808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691200943, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691201052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691201066, "dur":49981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691251079, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691251107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691251121, "dur":66106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691317258, "dur":199206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691516473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691516488, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691518275, "dur":1392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691519675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691519698, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691520918, "dur":4035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691524961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691524977, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691527729, "dur":68343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691596081, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691596139, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691597511, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691597541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691597555, "dur":204329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691801919, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691801960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691801974, "dur":66929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691868930, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111691868963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111691868977, "dur":165850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111692034865, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111692034897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666111692034912, "dur":910260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666111692945187, "dur":601085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111687898409, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111687898409, "dur":2201, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111687900624, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1666111687900625, "dur":128276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111688028912, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1666111688028920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111688029164, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1666111688030110, "dur":623319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1666111688653435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111688653458, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1666111688654409, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1666111688654447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111688654799, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1666111688656598, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1666111688656648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111688656662, "dur":1501305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1666111690157999, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111690158036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111690158050, "dur":648124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111690806196, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111690806257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111690806269, "dur":63086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111690869378, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111690869464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111690869478, "dur":40883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111690910385, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111690910418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111690910430, "dur":94844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691005298, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691005323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691005335, "dur":52346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691057705, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691057736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691057750, "dur":118901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691176725, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691176767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691176782, "dur":87654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691264491, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691264562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691264578, "dur":68355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691332961, "dur":144917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691477886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691477901, "dur":22459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691500391, "dur":1339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691501738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691501790, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691502925, "dur":86849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691589783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691589798, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691591344, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691591374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691591387, "dur":99796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691691211, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111691691250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111691691265, "dur":415354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111692106646, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111692106676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111692106691, "dur":174259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111692281011, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111692281043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666111692281056, "dur":555719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1666111692836790, "dur":709476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111687898462, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111687898463, "dur":2170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111687900634, "dur":754801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666111688655443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111688655486, "dur":7091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1666111688662597, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1666111688662647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111688662657, "dur":63357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1666111688726033, "dur":2547284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691273325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111691273392, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691275445, "dur":77585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691353070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111691353086, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691354416, "dur":179876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691534300, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111691534320, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691535730, "dur":1347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691537085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111691537100, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691540019, "dur":62382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691602409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111691602426, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691604177, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111691604223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111691604237, "dur":402330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111692006595, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111692006630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692006644, "dur":72023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111692078707, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111692078741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692078755, "dur":353152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111692431936, "dur":242811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111692674753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692674764, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666111692675629, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1666111692675719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692675907, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1666111692676642, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1666111692676665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692676695, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1666111692677654, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692677669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692677676, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692678318, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692678337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692678344, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692681114, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692681139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692681152, "dur":3942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692685112, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692685130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692685139, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692686365, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":8, "ts":1666111692686387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692686398, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":8, "ts":1666111692689403, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692689418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692689426, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692692850, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692692907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692692919, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692695809, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692695824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692695831, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692696569, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692696589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692696604, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692697347, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692697391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692697401, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692698296, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1666111692698324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692698336, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1666111692702765, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692702798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692702810, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692704671, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692704688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692704696, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692705661, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692705688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692705699, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692706636, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692706671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692706682, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692708513, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1666111692708650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692708663, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1666111692709501, "dur":7713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1666111692717220, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692717229, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1666111692717923, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692717940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692717946, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692719435, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692719450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692719458, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692720584, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level7.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692720636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692720648, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level7.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692721708, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level7" }}
+,{ "pid":12345, "tid":8, "ts":1666111692721728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692721739, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level7" }}
+,{ "pid":12345, "tid":8, "ts":1666111692722726, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level6.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692722747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692722757, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level6.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692723677, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1666111692723698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692723708, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1666111692724730, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692724752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692724762, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692725585, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1666111692725600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692725607, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1666111692726726, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692726740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692726748, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692727477, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1666111692727531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692727545, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1666111692728342, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692728364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692728374, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692729243, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1666111692729258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692729267, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1666111692729953, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692729978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692729988, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692731122, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1666111692731161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692731171, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1666111692732793, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692732814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692732826, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692734252, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1666111692734274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692734285, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1666111692735022, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692735036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692735064, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666111692735732, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1666111692735746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692735754, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1666111692736470, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692736494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692736505, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666111692737381, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1666111692737399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692737407, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1666111692738170, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1666111692738264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666111692738272, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Workspace/Builds/GoldenCherry/Window/x32/GoldenCherry_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1666111692739098, "dur":807148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666111693562590, "dur":4010, "ph":"X", "name": "ProfilerWriteOutput" }
+,
