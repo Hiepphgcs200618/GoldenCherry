@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.47252303, g: 0.7549776, b: 0.93011284, a: 1}
+  m_IndirectSpecularColor: {r: 0.47249788, g: 0.7549075, b: 0.93006843, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3257,6 +3257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28051c540ec6b7b44b44ef5a47203390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 2108028378}
 --- !u!4 &863108535
 Transform:
   m_ObjectHideFlags: 0
@@ -4972,7 +4973,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 863108534}
         m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
-        m_MethodName: QuitToMenu
+        m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

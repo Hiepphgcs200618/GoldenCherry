@@ -109,22 +109,49 @@ ScriptsOnlyBuild:
     methodName: RollCredit
   - assembly: Assembly-CSharp
     fullTypeName: ButtonScript
-    methodName: NextLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonScript
-    methodName: PlayAgain
+    methodName: Restart
   - assembly: Assembly-CSharp
     fullTypeName: ButtonScript
     methodName: NextLevel
   - assembly: Assembly-CSharp
     fullTypeName: ButtonScript
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
     methodName: PlayAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: Restart
   - assembly: Assembly-CSharp
     fullTypeName: ButtonScript
     methodName: NextLevel
   - assembly: Assembly-CSharp
     fullTypeName: ButtonScript
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
     methodName: PlayAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: PlayAgain
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonScript
+    methodName: Resume
   sceneClasses:
     Assets/Scenes/Credit.unity:
     - Class: 1
@@ -1627,7 +1654,7 @@ ScriptsOnlyBuild:
     className: GlobalMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 930b2a7c015542327cee6af349728cdd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonScript

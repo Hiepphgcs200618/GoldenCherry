@@ -1670,6 +1670,8 @@ struct BasicRigidBodyPush_t5850829651FD13E9150BEDBB10880B1DC0FC53E0  : public Mo
 // ButtonScript
 struct ButtonScript_t2941A7ECA4C66A13E86D78F14169E89857C0D026  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// UnityEngine.GameObject ButtonScript::pauseMenu
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pauseMenu_4;
 };
 
 // StarterAssets.FirstPersonController
@@ -2616,6 +2618,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___motion0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Time::set_timeScale(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331 (float ___value0, const RuntimeMethod* method) ;
+// System.Void ButtonScript::Resume()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonScript_Resume_mB3188279CE28D5EEC943BBFC248B1D9DBD93FE78 (ButtonScript_t2941A7ECA4C66A13E86D78F14169E89857C0D026* __this, const RuntimeMethod* method) ;
 // UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetActiveScene()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.SceneManagement.Scene::get_buildIndex()
@@ -4751,6 +4755,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement__ctor_mB37559C5B063816187
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void ButtonScript::Resume()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonScript_Resume_mB3188279CE28D5EEC943BBFC248B1D9DBD93FE78 (ButtonScript_t2941A7ECA4C66A13E86D78F14169E89857C0D026* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PauseGame_tA617E7404B2C12C16017D336A87E11CE8FBAAECF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PauseGame.gamePause = false;
+		((PauseGame_tA617E7404B2C12C16017D336A87E11CE8FBAAECF_StaticFields*)il2cpp_codegen_static_fields_for(PauseGame_tA617E7404B2C12C16017D336A87E11CE8FBAAECF_il2cpp_TypeInfo_var))->___gamePause_4 = (bool)0;
+		// Time.timeScale = 1;
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		// Cursor.lockState = CursorLockMode.Locked;
+		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
+		// pauseMenu.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pauseMenu_4;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void ButtonScript::Restart()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonScript_Restart_mB305E3826DB3FFB7B33215C5B12E1FD872E534BA (ButtonScript_t2941A7ECA4C66A13E86D78F14169E89857C0D026* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Resume();
+		ButtonScript_Resume_mB3188279CE28D5EEC943BBFC248B1D9DBD93FE78(__this, NULL);
+		// SceneManager.LoadScene(2);
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(2, NULL);
+		// }
+		return;
+	}
+}
 // System.Void ButtonScript::PlayAgain()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonScript_PlayAgain_m91B9B98ADAB5822B614D2DF96E553CC63D5284AE (ButtonScript_t2941A7ECA4C66A13E86D78F14169E89857C0D026* __this, const RuntimeMethod* method) 
 {
@@ -4800,6 +4846,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonScript_MainMenu_m00BF5BED57AAB04CF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// Resume();
+		ButtonScript_Resume_mB3188279CE28D5EEC943BBFC248B1D9DBD93FE78(__this, NULL);
+		// Cursor.lockState = CursorLockMode.None;
+		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(0, NULL);
 		// RedirectToLevel.redirectToLevel = 1;
 		((RedirectToLevel_t6094774B685EC475622FDCDDA1559FD03DAAAB14_StaticFields*)il2cpp_codegen_static_fields_for(RedirectToLevel_t6094774B685EC475622FDCDDA1559FD03DAAAB14_il2cpp_TypeInfo_var))->___redirectToLevel_4 = 1;
 		// SceneManager.LoadScene(2);
