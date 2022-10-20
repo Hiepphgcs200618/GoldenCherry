@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - Acid
     - AnimationController
@@ -20,6 +22,7 @@ ScriptsOnlyBuild:
     - PauseGame
     - PlatformGripper
     - PlayerMovement
+    - Readme
     - RedirectToLevel
     - RollCredit
     - SkyRotate

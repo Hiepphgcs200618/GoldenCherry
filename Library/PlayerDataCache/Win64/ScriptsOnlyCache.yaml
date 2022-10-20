@@ -2229,4 +2229,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level01.unity
   - Assets/Scenes/Level02.unity
   - Assets/Scenes/Level03.unity
-  playerPath: D:/Unity/Workspace/Builds/GoldenCherry/Window/GoldenCherry/GoldenCherry.exe
+  playerPath: D:/Unity/Workspace/Builds/GoldenCherry/Window/x64/GoldenCherry.exe
